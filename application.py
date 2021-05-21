@@ -3,7 +3,7 @@ This script runs the FlaskTemplate application using a development server.
 """
 
 from os import environ
-from FlakTemplate import app
+from FlaskTemplate import app
 
 if __name__ == '__main__':
     HOST = environ.get('SERVER_HOST', 'localhost')
